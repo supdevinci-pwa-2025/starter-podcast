@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Podcast Collectif</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎧 Podcast Collectif – Émargement de l’équipe</h1>
+
+  <h2>Ajouter un membre</h2>
+  <input type="text" id="memberName" placeholder="Nom du membre" />
+  <select id="memberRole">
+    <option>Voix</option>
+    <option>Script</option>
+    <option>Montage</option>
+  </select>
+  <button onclick="addMember()">Ajouter</button>
+
+  <div id="teamList"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

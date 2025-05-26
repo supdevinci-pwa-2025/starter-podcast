@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f7;
+  color: #1c1c1e;
+  padding: 20px;
+}
+h1 {
+  color: #6e40c9;
+}
+.member {
+  background-color: #e6e1fa;
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 6px solid #6e40c9;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+select, input[type="text"] {
+  margin-left: 10px;
+}
+#teamList {
+  margin-top: 20px;
+}
