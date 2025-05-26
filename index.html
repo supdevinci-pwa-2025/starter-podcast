@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Podcast Collectif</title>
+  <title>🎧 Podcast Collectif</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🎧 Podcast Collectif – Émargement de l’équipe</h1>
+  <h1>🎧 Podcast Collectif</h1>
 
-  <h2>Ajouter un membre</h2>
-  <input type="text" id="memberName" placeholder="Nom du membre" />
-  <select id="memberRole">
-    <option>Voix</option>
-    <option>Script</option>
-    <option>Montage</option>
-  </select>
-  <button onclick="addMember()">Ajouter</button>
+  <section id="formSection">
+    <h2>Ajouter un membre</h2>
+    <input type="text" id="memberName" placeholder="Nom du membre" />
+    <select id="memberRole">
+      <option>Voix</option>
+      <option>Script</option>
+      <option>Montage</option>
+    </select>
+    <button onclick="addMember()">Ajouter 🎙️</button>
+  </section>
 
-  <div id="teamList"></div>
+  <section id="stats">
+    <p>👥 Total : <span id="total">0</span> • 🎤 Voix : <span id="voice">0</span> • ✍️ Script : <span id="script">0</span> • 🎛️ Montage : <span id="montage">0</span></p>
+  </section>
+
+  <section id="teamList"></section>
 
   <script src="app.js"></script>
 </body>
